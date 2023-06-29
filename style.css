@@ -1,0 +1,204 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    position: relative;
+    
+    
+
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    background-color: rgb(1, 2, 15);
+
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+.box1
+{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   overflow: hidden;
+
+}
+.box2
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: white; */
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box3
+{
+    width: 150vh;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    /* background-color: white; */
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.boxiii
+{
+    width: 90%;
+    height:450px;
+    border-radius: 20px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.childbox
+{
+    width: 90%;
+    height: 100px;
+    /* background-color: green; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* display: flex; */
+    text-align: center;
+    outline: none;
+    /* justify-content: center; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.childbox1
+{
+    width: 900px;
+    height: 210px;
+    /* background-color: rgb(128, 43, 0); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    /* margin-bottom: 10px; */
+
+}
+.childbox10
+{  width: 850px;
+    height: 70px;
+    display: flex;
+    /* background-color: white; */
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+}
+.box0
+{
+    width: 102px;
+    height: 56px;
+    /* background-color: rgb(169, 27, 27); */
+    margin: 1px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    
+    
+}
+/* .childbox11
+{  width: 850px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+} */
+/* .boxi7
+{
+    width: 102px;
+    height: 56px;
+    background-color: rgb(169, 27, 27);
+    margin: 1px;
+    border-radius: 30px
+    
+} */
+/* .childbox12
+{
+    width: 850px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+} */
+/* .boxi9
+{
+    width: 102px;
+    height: 56px;
+    background-color: rgb(169, 27, 27);
+    margin: 1px;
+    border-radius: 30px
+} */
+button
+{
+    width: 102px;
+    height: 56px;
+    /* background-color: yellow; */
+    color: rgb(219, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
